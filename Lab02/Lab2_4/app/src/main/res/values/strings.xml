@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab2_4</string>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_base">5dp</dimen>
+    <dimen name="margin_basex2">10dp</dimen>
+    <string name="id">ID:</string>
+    <string name="full_name">Full Name:</string>
+    <string name="is_manager">Is A Manager:</string>
+    <string name="staff">Staff</string>
+    <string name="add">Add</string>
+
+</resources>

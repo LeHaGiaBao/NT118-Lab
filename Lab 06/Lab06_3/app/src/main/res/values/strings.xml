@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Excesise 3</string>
+    <string name="i_am_safe_and_well">I am Safe and Well</string>
+    <string name="mayday">MAYDAY! MAYDAY! MAYDAY!</string>
+    <string name="auto_response">Auto Response</string>
+    <string name="i_am_safe_and_well_worry_not">I am safe and well. Worry not!</string>
+    <string name="tell_my_mother_i_love_her">Tell my mother I love her.</string>
+    <string name="are_you_ok">Are you OK?</string>
+    <string name="these_people_want_to_know_if_u_are_ok">These people want to know if you\’re ok</string>
+</resources>

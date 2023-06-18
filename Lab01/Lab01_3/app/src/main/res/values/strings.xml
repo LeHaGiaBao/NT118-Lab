@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab01_2c</string>
+    <string name="sign_in">Sign in</string>
+    <string name="username">Username: </string>
+    <string name="password">Password: </string>
+    <string name="signup">Sign up</string>
+    <string name="facebook">Sign in via Facebook</string>
+    <string name="sign_up">Sign up</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_base">
+    <TextView
+        android:id="@+id/tv_request_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/these_people_want_to_know_if_u_are_ok"
+        />
+    <LinearLayout
+        android:id="@+id/ll_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_base">
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/btn_safe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/i_am_safe_and_well" />
+            <Button
+                android:id="@+id/btn_mayday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/mayday" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/auto_response"
+                android:textSize="@dimen/text_medium" />
+            <Switch
+                android:id="@+id/sw_auto_response"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lv_messages"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_control"
+        android:layout_below="@id/tv_request_list" />
+</RelativeLayout>

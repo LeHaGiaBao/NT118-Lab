@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextName" type="id" />
+    <item name="editTextAge" type="id" />
+    <item name="buttonAdd" type="id" />
+    <item name="recyclerViewStudents" type="id" />
+</resources>
